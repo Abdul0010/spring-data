@@ -23,6 +23,7 @@ public class PayroleApplication {
 			respository.save(new Employee("abdul","mohammed","programmer", manager));
 			respository.save(new Employee("anwar","mohammed","manager",manager));
 			respository.save(new Employee("chocho","chichi","headMaster",manager2));
+			respository.save(new Employee("chocho34","chichi34","headMaster34",manager2));
 
 		};
 	}
